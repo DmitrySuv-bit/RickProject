@@ -11,7 +11,6 @@ interface CharacterDataModule {
 
     @Module
     companion object {
-
         @Provides
         @JvmStatic
         @Reusable
