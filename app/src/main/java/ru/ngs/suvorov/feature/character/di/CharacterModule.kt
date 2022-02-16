@@ -1,4 +1,4 @@
-package ru.ngs.suvorov.feature.character.data.di
+package ru.ngs.suvorov.feature.character.di
 
 import dagger.Module
 import dagger.Provides

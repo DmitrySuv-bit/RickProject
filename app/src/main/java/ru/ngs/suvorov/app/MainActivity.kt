@@ -34,10 +34,10 @@ class MainActivity : DaggerAppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        GlobalScope.launch(Dispatchers.Main){
+        GlobalScope.launch(Dispatchers.Main) {
 
-            val gg = withContext(Dispatchers.IO) {character.getCharacter(1)}
-            Log.d("dfvdfvazdv",gg.toString() )
+            val gg = withContext(Dispatchers.IO) { character.getCharacter(1) }
+            Log.d("dfvdfvazdv", gg.toString())
         }
     }
 }
